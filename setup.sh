@@ -29,11 +29,9 @@ sudo apt-get install docker docker-compose
 cd /home/stfuser/stf-poc
 sudo docker-compose up --build -d
 
-echo YOU MUST SUDO AS ROOT
-echo
 echo Add the following line to crontab -e
 echo
 echo "@reboot (sleep 30s ; cd /home/stfuser/stf-poc ; docker-compose up --build -d)" 
 echo
 echo once done reboot the machine
-~                                                   
+sudo crontab -e
