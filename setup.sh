@@ -4,7 +4,7 @@ sudo apt-get upgrade
 sudo apt-get install git
 
 cd ~
-https://github.com/meastro/stf-poc.git
+git clone https://github.com/meastro/stf-poc.git
 echo
 echo "Do you wish to install OPENSTF with the DarkWeb Capability?"
 select yn in "Yes" "No"; do
