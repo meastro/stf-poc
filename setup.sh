@@ -3,4 +3,4 @@ sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install git
 cd ~
-https://github.com/meastro/stf-poc.git
+git clone https://github.com/meastro/stf-poc.git
